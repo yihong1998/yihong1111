@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121210">
+  <meta name="description" content="LUMEN AI 影像工作室，以生成式影像讲述尚未发生的故事。探索 AI 短片、品牌影像与视觉实验。">
+  <title>LUMEN — AI 影像作品集</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="LUMEN 首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-type"><b>LUMEN</b><small>AI PICTURE HOUSE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="主导航">
+      <a href="#work">作品 <span>01</span></a><a href="#studio">关于 <span>02</span></a><a href="#process">流程 <span>03</span></a>
+      <a class="nav-contact" href="mailto:hello@lumenfilm.studio">开启合作 <span>↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2400&q=88" alt="夜幕下的山脉与辽阔星空" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-topline"><span>独立 AI 影像工作室</span><span>上海 · 远程协作</span></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> IMAGINATION, IN MOTION <span class="eyebrow-year">EST. 2024</span></p>
+        <h1 id="hero-title">让想象，<br><em>先于镜头</em>抵达。</h1>
+        <div class="hero-bottom"><p class="hero-copy">用 AI 拓展影像的边界。<br>为还未发生的故事，找到第一帧。</p><a class="round-link" href="#work"><span>探索<br>作品</span><b aria-hidden="true">↘</b></a></div>
+      </div>
+      <div class="hero-caption"><span>01 / 05</span><span>雾屿 · 一场关于远方的梦</span><span>AI SHORT FILM</span></div>
+      <div class="hero-scroll" aria-hidden="true"><span></span>向下探索</div>
+    </section>
+    <div class="ticker" aria-label="我们的创作领域"><div class="ticker-track"><span>AI FILM</span><i>✳</i><span>新叙事</span><i>✳</i><span>生成式影像</span><i>✳</i><span>未知美学</span><i>✳</i><span>AI FILM</span><i>✳</i><span>新叙事</span><i>✳</i><span>生成式影像</span><i>✳</i><span>未知美学</span><i>✳</i></div></div>
+    <section class="work-section section-pad" id="work">
+      <div class="section-heading" data-reveal><div><p class="section-kicker">SELECTED WORKS <span>2024 — 2026</span></p><h2>影像，<em>从未如此自由。</em></h2></div><p class="section-intro">每一帧都是一次实验。<br>每一个故事，都从好奇开始。</p></div>
+      <div class="filters" role="group" aria-label="按作品类型筛选" data-reveal>
+        <button class="filter is-active" data-filter="all" aria-pressed="true">全部 <span>05</span></button><button class="filter" data-filter="film" aria-pressed="false">AI 短片 <span>02</span></button><button class="filter" data-filter="brand" aria-pressed="false">品牌影像 <span>02</span></button><button class="filter" data-filter="experiment" aria-pressed="false">视觉实验 <span>01</span></button>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card project-feature" data-category="film" data-reveal tabindex="0" role="button" aria-label="查看作品：雾屿">
+          <div class="project-image-wrap"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1500&q=85" alt="云雾环绕的高山湖泊" loading="lazy"><span class="project-index">01 / SHORT FILM</span><span class="project-open" aria-hidden="true">↗</span><div class="image-vignette"></div></div>
+          <div class="project-meta"><div><h3>雾屿 <span>ISLE OF MIST</span></h3><p>一个关于记忆与归途的 AI 叙事短片</p></div><span class="project-year">2026</span></div>
+          <div class="project-data" hidden data-title="雾屿" data-subtitle="ISLE OF MIST" data-kind="AI 叙事短片" data-year="2026" data-runtime="03:42" data-image="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=88">一封寄往远方的信，一座只在雾中出现的岛。以生成式影像构建记忆的地貌，讲述关于失去、回望与归途的故事。</div>
+        </article>
+        <article class="project-card" data-category="brand" data-reveal tabindex="0" role="button" aria-label="查看作品：以太花园">
+          <div class="project-image-wrap"><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1100&q=85" alt="光影中的植物与鲜绿色叶片" loading="lazy"><span class="project-index">02 / BRAND FILM</span><span class="project-open" aria-hidden="true">↗</span><div class="image-vignette"></div></div>
+          <div class="project-meta"><div><h3>以太花园 <span>ETHER GARDEN</span></h3><p>让未来自然生长 · 概念品牌片</p></div><span class="project-year">2026</span></div>
+          <div class="project-data" hidden data-title="以太花园" data-subtitle="ETHER GARDEN" data-kind="概念品牌片" data-year="2026" data-runtime="00:58" data-image="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1800&q=88">在自然与科技交界的世界里，一粒种子如何成为一座未来花园？一支探索未来自然感官叙事的概念影像。</div>
+        </article>
+        <article class="project-card" data-category="film" data-reveal tabindex="0" role="button" aria-label="查看作品：末日之前">
+          <div class="project-image-wrap"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1100&q=85" alt="雪山之上的星空与银河" loading="lazy"><span class="project-index">03 / AI SHORT FILM</span><span class="project-open" aria-hidden="true">↗</span><div class="image-vignette"></div></div>
+          <div class="project-meta"><div><h3>末日之前 <span>BEFORE THE END</span></h3><p>世界静下来时，爱还在继续</p></div><span class="project-year">2025</span></div>
+          <div class="project-data" hidden data-title="末日之前" data-subtitle="BEFORE THE END" data-kind="AI 科幻短片" data-year="2025" data-runtime="02:13" data-image="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1800&q=88">当城市的灯火逐渐熄灭，一对陌生人穿过寂静的荒野。这是一则关于终点、陪伴，以及最后一束光的科幻寓言。</div>
+        </article>
+        <article class="project-card" data-category="brand" data-reveal tabindex="0" role="button" aria-label="查看作品：回声之外">
+          <div class="project-image-wrap"><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1100&q=85" alt="阳光下层层涌动的蔚蓝海浪" loading="lazy"><span class="project-index">04 / BRAND FILM</span><span class="project-open" aria-hidden="true">↗</span><div class="image-vignette"></div></div>
+          <div class="project-meta"><div><h3>回声之外 <span>BEYOND THE ECHO</span></h3><p>声音如何抵达看不见的地方</p></div><span class="project-year">2025</span></div>
+          <div class="project-data" hidden data-title="回声之外" data-subtitle="BEYOND THE ECHO" data-kind="品牌概念影像" data-year="2025" data-runtime="01:26" data-image="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1800&q=88">把声音变成看得见的风景。追随一段旋律，穿越潮汐之间，为独立音频品牌构建一场感官旅程。</div>
+        </article>
+        <article class="project-card" data-category="experiment" data-reveal tabindex="0" role="button" aria-label="查看作品：第七种天气">
+          <div class="project-image-wrap"><img src="https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=1100&q=85" alt="流动云层中的落日霞光" loading="lazy"><span class="project-index">05 / VISUAL STUDY</span><span class="project-open" aria-hidden="true">↗</span><div class="image-vignette"></div></div>
+          <div class="project-meta"><div><h3>第七种天气 <span>THE SEVENTH SKY</span></h3><p>关于情绪的一组生成式视觉研究</p></div><span class="project-year">2024</span></div>
+          <div class="project-data" hidden data-title="第七种天气" data-subtitle="THE SEVENTH SKY" data-kind="生成式视觉实验" data-year="2024" data-runtime="00:41" data-image="https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=1800&q=88">如果情绪是一种天气，它会是什么样子？一组关于色彩、流动与生成式影像的动态视觉研究。</div>
+        </article>
+      </div>
+      <p class="empty-state" hidden>这个分类的作品还在剪辑中，敬请期待。</p>
+    </section>
+    <section class="studio-section section-pad" id="studio">
+      <div class="studio-orbit" aria-hidden="true"><span>HUMAN × MACHINE</span><b>✳</b></div>
+      <div class="studio-content" data-reveal><p class="section-kicker">A LITTLE ABOUT US <span>工作室</span></p><h2>技术负责<br>打开边界，<br><em>故事负责<br>留下来。</em></h2></div>
+      <div class="studio-copy" data-reveal><p>LUMEN 是一间专注 AI 影像的独立创作工作室。我们把导演思维、生成式工具与传统影像语言放在同一张桌上，探索更轻盈、更大胆的创作方式。</p><a href="mailto:hello@lumenfilm.studio" class="text-link">认识我们的创作方式 <span>↗</span></a></div>
+      <div class="studio-stats" data-reveal><div><strong>24<span>+</span></strong><small>已完成的创作实验</small></div><div><strong>08</strong><small>合作中的品牌与创作者</small></div><div><strong>∞</strong><small>仍在探索的可能性</small></div></div>
+    </section>
+    <section class="process-section section-pad" id="process">
+      <div class="section-heading" data-reveal><div><p class="section-kicker">FROM IDEA TO IMAGE <span>我们的流程</span></p><h2>让灵感，<em>一步步成真。</em></h2></div><p class="section-intro">小团队，短路径，高密度创意。<br>每一个阶段都为故事服务。</p></div>
+      <div class="process-grid">
+        <article data-reveal><span class="process-num">01</span><div class="process-icon">✳</div><h3>找到故事</h3><p>从一个问题、一种情绪或一段旋律开始，厘清真正值得被看见的核心。</p><small>DISCOVER</small></article>
+        <article data-reveal><span class="process-num">02</span><div class="process-icon">◉</div><h3>构建世界</h3><p>发展影像概念、视觉基调与叙事脉络，为想象搭建清晰的坐标。</p><small>DESIGN</small></article>
+        <article data-reveal><span class="process-num">03</span><div class="process-icon">⌁</div><h3>生成与导演</h3><p>将生成式工具融入导演流程，持续迭代画面、表演、运动与节奏。</p><small>CREATE</small></article>
+        <article data-reveal><span class="process-num">04</span><div class="process-icon">↗</div><h3>打磨成片</h3><p>从声音设计到最后一帧，让每个细节都回到故事本身。</p><small>DELIVER</small></article>
+      </div>
+    </section>
+    <section class="contact-section" id="contact"><div class="contact-bg" aria-hidden="true"></div><div class="contact-content" data-reveal><p class="section-kicker">HAVE A STORY IN MIND?</p><h2>下一帧，<br><em>一起想象。</em></h2><p>无论是一个还不完整的点子，还是正在寻找新表达的品牌，我们都愿意听听。</p><a href="mailto:hello@lumenfilm.studio" class="contact-button">聊聊你的项目 <span>↗</span></a></div><div class="contact-note">OPEN FOR SELECT COLLABORATIONS<br>2026 — 2027</div></section>
+  </main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top" aria-label="返回顶部"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-type"><b>LUMEN</b><small>AI PICTURE HOUSE</small></span></a>
+    <p>把还未发生的故事，拍给你看。</p><div class="footer-links"><a href="mailto:hello@lumenfilm.studio">EMAIL ↗</a><a href="#top">BACK TO TOP ↑</a></div>
+    <small class="copyright">© <span id="year">2026</span> LUMEN STUDIO. MADE WITH CURIOSITY.</small>
+  </footer>
+  <dialog class="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" aria-label="关闭项目详情">×</button><div class="dialog-image"></div>
+    <div class="dialog-body"><p class="section-kicker dialog-kicker"><span class="dialog-kind"></span><span class="dialog-year"></span></p><h2 id="dialog-title"></h2><p class="dialog-subtitle"></p><p class="dialog-description"></p><div class="dialog-bottom"><span>作品档案 · <span class="dialog-runtime"></span></span><a href="mailto:hello@lumenfilm.studio?subject=关于作品合作" class="text-link">洽谈类似项目 <b>↗</b></a></div></div>
+  </dialog>
+</body>
+</html>
